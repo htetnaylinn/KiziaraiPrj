@@ -1,0 +1,10 @@
+.payment_form_container{
+    display: block;
+    position: relative;
+
+    width: 300px;
+    height: auto;
+    border-radius: 20px solid #000000;
+
+    padding: 20px;
+}

@@ -1,0 +1,41 @@
+erDiagram
+    ka_chat_threads {
+        int8 id PK
+        timestampz created_at
+        udid created_by FK "users"
+        timestampz updated_at
+    }
+    users ||--|{ ka_chat_threads : ""   
+    
+    ka_chat_messages {
+        int8 id PK
+        timestampz created_at
+        int8 thread_id FK "ka_chat_threads"
+        udid user_id FK "users"
+        text message
+    }
+    ka_chat_threads ||--o{ ka_chat_messages : ""
+    users ||--o{ ka_chat_messages : ""
+
+    ka_chat_unread_statuses {
+        int8 id PK
+        timestampz created_at
+        int8 message_id FK "ka_chat_messages"
+        udid user_id FK "users"
+        bool status
+    }
+    ka_chat_messages ||--o{ ka_chat_unread_statuses : ""
+    users ||--o{ ka_chat_unread_statuses : ""
+
+    ka_chat_thread_members {
+        int8 id PK
+        timestampz created_at
+        int8 thread_id FK "ka_chat_threads"
+        udid user_id FK "users"
+        int8 group_id FK "ka_user_group"
+        int8 role_id FK "ka_group_role_master"
+    }
+    ka_chat_threads ||--o{ ka_chat_thread_members : ""
+    ka_user_group ||--o{ ka_chat_thread_members : ""
+    ka_group_role_master ||--o{ ka_chat_thread_members: ""
+        users ||--o{ ka_chat_thread_members : ""

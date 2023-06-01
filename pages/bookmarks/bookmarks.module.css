@@ -1,0 +1,142 @@
+.all_container
+{
+    display: block;
+    position: relative;
+
+    width: 100%;
+
+    height: auto;
+
+    font-size: 0;
+
+    background-color: var(--bg-color-fabrics);
+    
+}
+
+.left_container{
+    display: inline-block;
+    width: var(--menu-width);
+    height: auto;
+
+    vertical-align: top;
+
+    border-bottom: 1px solid var(--main-blue-color);
+}
+
+.right_container{
+    display: inline-block;
+    width: calc(100% - var(--menu-width));
+    height: auto;
+    vertical-align: top;
+}
+
+.tab_container{
+    display: block;
+    position: relative;
+
+    width: 100%;
+    height: 40px;
+
+    margin-top: 40px;
+    border-bottom: 1px solid var(--main-blue-color);
+
+}
+
+.tab_btn{
+    display: inline-block;
+    position: relative;
+
+    width: 160px;
+    height: 40px;
+
+    margin-bottom: 0;
+    margin-right: 3px;
+
+    border-radius: 18px 18px 0px 0px;
+
+    color: #000;
+
+    font-size: 14px;
+
+    text-align: center;
+    line-height: 40px;
+
+    border-left: 1px solid var(--main-blue-color);
+    border-top: 1px solid var(--main-blue-color);
+    border-right: 1px solid var(--main-blue-color);
+
+}
+
+
+.contents_left_container{
+    display: inline-block;
+    position: relative;
+    width:300px;
+    height: 100vh;
+
+    border-right: 1px solid var(--main-blue-color);
+
+    vertical-align: middle;
+}
+
+
+.contents_right_container{
+    display: inline-block;
+    position: relative;
+    width:calc(100% - 300px);
+    height: 100vh;
+
+    border-right: 1px solid var(--main-blue-color);
+    vertical-align: middle;
+}
+
+.header_info_container{
+    display: block;
+    position: relative;
+    
+    width: 100%;
+
+}
+
+.bookmark_folder{
+    width: 40px;
+    vertical-align: middle;
+
+    margin-right: 10px;
+}
+
+.folder_title{
+
+    display: inline;
+    font-size: 13px;
+
+
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.created_at{
+    display: inline;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.menu_add_item{
+    display: block;
+    position: absolute;
+
+    top: 0;
+    right: 0;
+    width: 500px;
+    min-height: 100vh;
+}
+
+.bookmark_list_container{
+    display: block;
+    position: relative;
+
+    width: 100%;
+    height: auto;
+    
+    margin: auto;
+}

@@ -1,0 +1,103 @@
+.all_container
+{
+    display: block;
+    position: relative;
+
+    width: 100%;
+
+    height: auto;
+
+    font-size: 0;
+
+    background-color: var(--bg-color-fabrics);
+    
+}
+
+
+.left_container{
+    display: inline-block;
+    width: var(--menu-width);
+    height: auto;
+
+    vertical-align: top;
+}
+
+.right_container{
+    display: inline-block;
+    width: calc(100% - var(--menu-width));
+    height: auto;
+    vertical-align: top;
+}
+
+.title_container{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 40px;
+
+    margin-bottom: 60px;
+
+    text-align: center;
+    padding-top: 60px;
+
+}
+.title_container img{
+    width: 200px;
+}
+
+.messages_container{
+    display: block;
+    position: relative;
+
+    width: 100%;
+    text-align: center;
+
+    padding-top: 40px;
+    max-width: 1000px;
+
+    margin: auto;
+}
+
+.search_filter_row{
+    display: block;
+    position: relative;
+    width: 100%;
+
+    max-width: 1000px;
+    margin: auto;
+
+    margin-bottom: 10px;
+
+}
+
+.search_filter_title{
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+
+    font-size: 13px;
+    border-radius: 20px;
+
+    border: 0.5px solid #000;
+
+    margin-right: 20px;
+
+    
+}
+
+.search_elements{
+    display: inline-block;
+    position: relative;
+    width: 60%;
+}
+
+.search_element{
+    display: inline;
+    position: relative;
+    font-size: 13px;
+
+    margin-right: 20px;
+}

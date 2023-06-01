@@ -1,0 +1,25 @@
+.container{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.flex_container{
+    display: flex;
+    width: 100%;
+    height: auto;
+
+    background-color: lightgray;
+}
+
+.column{
+    display: block;
+    position: relative;
+    width: 100%;
+ 
+    height: auto;
+    line-height: 40px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}

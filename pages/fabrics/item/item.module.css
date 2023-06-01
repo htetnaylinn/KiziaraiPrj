@@ -1,0 +1,171 @@
+.all_container{
+    display: block;
+    position: relative;
+
+    width: 100%;
+    min-height: 100vh;
+
+    background-color: #fff;
+}
+
+.container{
+    display: block;
+    position: relative;
+
+    width: 100%;
+    height: auto;
+
+    background-color: #fff;
+}
+
+.item_container{
+    display: block;
+
+    position: relative;
+
+    width: 100%;
+    height: auto;
+
+    min-height: 100vh;
+}
+
+.flex_container{
+    display: flex;
+    
+}
+
+.item_center_line_container{
+
+    display: block;
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 50%;
+    height: 100vh;
+
+    border-right: 1px dashed #ccc;
+}
+
+.item_left_container{
+  
+    flex: 1 1;
+
+    height: auto;
+
+}
+
+.preview_img{
+    display: block;
+    width: 440px;
+    margin: auto;
+}
+
+.item_right_container{
+    flex: 1 1;
+    height: auto;
+}
+
+.title_container{
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.title_container img{
+    width: 200px;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.search_btn{
+    display: block;
+    position: relative;
+
+    width: 160px;
+    font-size: 13px;
+
+    height: 24px;
+    line-height: 24px;
+
+    margin: auto;
+    text-align: center;
+    border: 1px solid #000;
+
+    border-radius: 24px;
+}
+
+.item_right_inner_container{
+    display: block;
+    position: relative;
+
+    width: calc(100% - 100px);
+    margin: auto;
+    margin-top: 80px;
+}
+
+.left_container{
+    display: inline-block;
+    width: var(--menu-width);
+    height: 100vh;
+
+    vertical-align: top;
+}
+
+.right_container{
+    display: inline-block;
+    width: calc(100% - var(--menu-width));
+    height: 100vh;
+    vertical-align: top;
+}
+
+.product_id{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.product_text{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.product_description{
+    display: block;
+    position: relative;
+
+    font-size: 14px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bookmark_btn{
+    display: block;
+    position: relative;
+
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+
+    text-align: center;
+    color: #fff;
+
+    border-radius: 40px;
+
+    background-color: #000;
+
+    margin-bottom: 40px;
+}
+
+.info_row{
+    display: block;
+    position: relative;
+
+    font-size: 16px;
+
+    margin-bottom: 15px;
+
+}

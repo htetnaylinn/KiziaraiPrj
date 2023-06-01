@@ -1,0 +1,48 @@
+.container{
+    display: block;
+    position: relative;
+
+    width: calc(100% - 30px);
+    height: auto;
+    line-height: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.count_container{
+    text-align: center;
+
+}
+
+.label{
+ margin-bottom: 0;
+}
+
+.container input{
+    display: block;
+    position: relative;
+
+    width: calc(100% - 30px);
+    height: 36px;
+    line-height: 36px;
+}
+
+.send_btn{
+    display: block;
+    position: relative;
+
+    width: 180px;
+    height: 40px;
+
+    line-height: 40px;
+
+    border-radius: 40px;
+
+    margin: auto;
+    margin-top: 30px;
+
+    text-align: center;
+
+    color: #fff;
+    background-color: var(--main-blue-color);
+}

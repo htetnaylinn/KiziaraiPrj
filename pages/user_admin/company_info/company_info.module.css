@@ -1,0 +1,228 @@
+.all_container
+{
+    display: block;
+    position: relative;
+
+    width: 100%;
+
+    height: auto;
+
+    font-size: 0;
+
+    background-color: #fff;
+}
+
+.left_container{
+    display: inline-block;
+    width: 70px;
+    height: auto;
+
+    vertical-align: top;
+}
+
+.right_container{
+    display: inline-block;
+    width: calc(100% - 70px);
+    height: auto;
+    vertical-align: top;
+}
+
+.form_container{
+    display: block;
+    position: relative;
+
+    width: 100%;
+    max-width: 1000px;
+
+    margin: auto;
+
+    margin-top: 60px;
+
+    background-color: #fafafa;
+
+    font-size: 14px;
+    border: 0.5px solid #9a9a9a;
+
+    border-radius: 26px;
+}
+
+.row{
+    min-height: 60px;
+    height: auto;
+    line-height: 60px;
+
+    border-bottom: 0.5px solid #9a9a9a;
+}
+
+.row_single{
+    
+    text-align: center;
+
+    border-bottom: 0.5px solid #9a9a9a;
+}
+
+.title_column{
+    display: inline-block;
+    position: relative;
+
+    width: 240px;
+    vertical-align: top;
+
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 40px;
+
+    color: #666;
+}
+
+.content_column{
+    display: inline-block;
+    position: relative;
+
+    width: calc(100% - 240px);
+    vertical-align: top;
+    padding-left: 20px;
+
+    border-left: 0.5px solid #9a9a9a;
+
+}
+
+.content_column_nopadding{
+    display: inline-block;
+    position: relative;
+
+    width: calc(100% - 240px);
+    vertical-align: top;
+    padding-left: 0px;
+
+    border-left: 0.5px solid #9a9a9a;
+
+}
+
+.button_container{
+    display: inline-block;
+    position: relative;
+
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+.input_text{
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.input_row{
+    border-bottom: 0.5px solid #9a9a9a;
+    padding-left: 20px;
+
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    line-height: 1;
+}
+
+.input_row:last-child{
+    border-bottom: 0px;
+}
+
+.name_label{
+    display: block;
+    width: 200px;
+    height: 20px;
+    margin-top: 10px;
+
+    line-height: 1;
+}
+
+.mix_row{
+    display: flex;
+    width: 100%;
+}
+.mix_column{
+    flex: 1 1;
+}
+
+.mix_column .input_text{
+    display: inline-block;
+    width: 200px;
+}
+
+.tab_container{
+    display: block;
+    position: relative;
+
+    width: 100%;
+}
+
+.tab_tag_type{
+    display: inline-block;
+    position: relative;
+    width: 130px;
+}
+
+.tab_button{
+    display: inline-block;
+    position: relative;
+    width: 100px;
+}
+
+
+.tab_buttons_hidden{
+    display: none;
+    position: relative;
+    width: 100px;
+}
+.button{
+    display: block;
+    position: relative;
+
+    width: 160px;
+    height: 44px;
+    line-height: 44px;
+
+    text-align: center;
+
+    color: #fff;
+
+    font-size: 14px;
+
+    background-color: #000;
+
+    cursor: pointer;
+}
+
+.add_btn{
+    display: block;
+    position: relative;
+
+    width: 160px;
+    height: 33px;
+    line-height: 33px;
+
+    text-align: center;
+
+    color: #fff;
+
+    font-size: 14px;
+
+    background-color: #000;
+
+    cursor: pointer;
+}
+
+.preview_container{
+    display: block;
+    position: relative;
+
+    width: 1200px;
+    height: 900px;
+
+    border: 1px solid #222;
+
+    transform: scale(0.5);
+
+    
+}

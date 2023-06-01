@@ -1,0 +1,98 @@
+.container{
+
+    display: block;
+    position: relative;
+
+    width: 100%;
+    height:auto;
+    min-height: 100vh;
+    margin: auto;
+    background-color: #fff;
+
+    max-width:900px;
+}
+
+.logo_container{
+    display: block;
+    position: relative;
+
+    width: calc(100% - 30px);
+    height: auto;
+    line-height: 50px;
+    padding-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.exhibition_name_container{
+    display: block;
+    position: relative;
+
+    width: calc(100% - 30px);
+    margin-left: 15px;
+    margin-right: 15px;
+
+    height: 40px;
+    line-height: 30px;
+
+
+    border-bottom: 0.5px solid #000;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.logo_container img{
+    width: 200px;
+}
+
+.company_name_container{
+    display: block;
+    position: relative;
+
+    width: calc(100% - 30px);
+    margin-left: 15px;
+    margin-right: 15px;
+
+    border-top: 0.5px solid #000;
+    border-bottom: 0.5px solid #000;
+
+    height: 40px;
+    line-height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.row
+{
+    display: block;
+    position: relative;
+
+    width: 100%;
+    border-bottom: 0.5px solid #000;
+}
+
+.ok_btn{
+    display: block;
+    position: fixed;
+
+    bottom: 20px;
+    right: 20px;
+
+    width: 70px;
+    height: 70px;
+
+    border-radius: 70px;
+
+    line-height: 70px;
+
+    text-align: center;
+
+    color: #fff;
+
+    background-color: var(--main-blue-color);
+
+     filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.3));
+}
+
+

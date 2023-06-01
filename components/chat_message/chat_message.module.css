@@ -1,0 +1,106 @@
+.row{
+    display: block;
+    position: relative;
+
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    display: block;
+    position: relative;
+
+    width: 100%;
+    height: auto;
+
+    text-align: left;
+
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.container_right{
+    display: block;
+    position: relative;
+
+    width: 100%;
+    height: auto;
+
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.message_container{
+    display: inline-block;
+    position: relative;
+
+    width: 70%;
+
+    min-height: 40px;
+
+    border-radius: 40px;
+
+    padding: 10px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    border: 1px solid #fff;
+
+    vertical-align: top;
+
+    text-align: left;
+
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.message_container_new{
+    background-color: #fff;
+}
+
+.icon_container{
+
+    display: inline-block;
+    position: relative;
+
+    width: 40px;
+    height: 40px;
+
+    
+    border-radius: 40px;
+
+    overflow: hidden;
+
+    padding: 0px;
+
+    text-align: center;
+    vertical-align: top;
+
+    margin: 5px;
+    margin-top: 0;
+}
+
+.icon_container img{
+    width: 40px;
+    height: 40px;
+
+    vertical-align: top;
+}
+
+.date{
+    padding-left: 70px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.date_right{
+    padding-right: 70px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.message {
+    white-space: pre-line;
+}

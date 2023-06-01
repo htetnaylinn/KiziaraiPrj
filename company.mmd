@@ -1,0 +1,21 @@
+erDiagram
+    ka_company {
+        int8 id PK
+        timestampz created_at
+        int 8 group_id FK
+        text company_name
+        bool is_public
+    }
+
+    ka_company_profile {
+        int8 company_id PK FK
+        int8 lang_id PK FK
+        timestampz created_at
+        varchar company_name
+        varchar postal_code
+        varchar state
+        varchar city
+        varchar street
+        varchar building
+        int8 country_id FK
+    }

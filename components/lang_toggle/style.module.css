@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+}
+
+.lang_toggle{
+    cursor: pointer;
+
+    margin-right: 10px;
+}

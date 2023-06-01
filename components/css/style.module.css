@@ -1,0 +1,70 @@
+.one_line_container{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.all_container{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.flex_container{
+    display: flex;
+    position: relative;
+
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex_item_w500{
+    display: block;
+    position: relative;
+    width: 500px;
+}
+.flex_item_w1200{
+    display: block;
+    position: relative;
+    width: 1200px;
+}
+
+.form_cotainer{
+
+    display: block;
+    position: relative;
+    width: 100%;
+
+}
+.form_row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.btn{
+    display: block;
+    position: relative;
+
+    width: 240px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #000;
+    color: #fff;
+
+    appearance: none;
+    border: 0px;
+
+    text-align: center;
+}
+
+.inline_w100{
+    display: inline-block;
+    width: 100px;
+}

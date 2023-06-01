@@ -1,0 +1,125 @@
+.container{
+    display: block;
+    position: fixed;
+
+    width: 100%;
+    height: 100vh;
+
+    margin: 0;
+    padding:0;
+
+    background-color: rgba(0.0, 0.0 , 0.0, 0.5);
+}
+
+.list_container{
+    display: block;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+
+    width: 900px;
+    height: 80vh;
+
+    padding: 30px;
+
+    transform: translate(-50%,-50%);
+
+    background-color: #fff;
+    border-radius: 30px;
+
+}
+
+.contact_list_container{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.contact_list_item{
+    display: block;
+    position: relative;
+    width: 220px;
+
+    border-radius: 20px;
+    background-color: #eee;
+
+    padding: 10px;
+
+    margin: 20px;
+}
+
+.contact_list_item_selected{
+    display: block;
+    position: relative;
+    width: 220px;
+
+    border-radius: 20px;
+
+    padding: 10px;
+
+    margin: 20px;
+    background-color: #afa;
+
+}
+
+.contact_list_item_row{
+    display: block;
+    position: relative;
+    
+    width: 100%;
+}
+
+
+
+.btn_container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.add_button{
+    display: block;
+    position: relative;
+
+    border-radius: 10px;
+    text-align: center;
+
+    font:14px;
+    text-align: center;
+
+    width: 160px;
+    height: 50px;
+
+    line-height: 50px;
+
+    background-color: #ccd;
+
+    cursor: pointer;
+
+    margin-bottom: 20px;
+
+    margin-right: 20px;
+}
+
+.close_button{
+    display: block;
+    position: relative;
+
+    border-radius: 10px;
+    text-align: center;
+
+    font:14px;
+    text-align: center;
+
+    width: 160px;
+    height: 50px;
+
+    line-height: 50px;
+
+    border: 1px solid #ccd;
+
+    cursor: pointer;
+}

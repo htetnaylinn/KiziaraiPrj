@@ -1,0 +1,25 @@
+.input_txt{
+    width: 200px;
+}
+.btn{
+    display: block;
+    position: relative;
+
+    width: 160px;
+    height: 40px;
+
+    text-align: center;
+
+    color: #fff;
+    background-color: #000;
+}
+
+.todo{
+
+    display: block;
+    position: relative;
+    font-size: 16px;
+    width: 4000px;
+    height: 30px;
+    border-bottom: 1px solid #000;
+}

@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    position: relative;
+
+    width: 100%;
+    height: auto;
+
+    justify-content: center;
+}
+
+.row{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.center_container{
+    display: flex;
+    width: 800px;
+}
+
+.left_container{
+    width: 400px;
+
+    vertical-align: top;
+}
+.right_container{
+    width: 400px;
+    vertical-align: top;
+}
+
+.row_fabric{
+    border-bottom: 1px solid #000;
+}
+.row_related_fabric{
+
+    width: 300px;
+
+    background-color: #eee;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    border-radius: 15px;
+
+    padding: 10px;
+}

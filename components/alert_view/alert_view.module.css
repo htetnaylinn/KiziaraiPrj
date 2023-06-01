@@ -1,0 +1,72 @@
+.bg_container{
+    display: block;
+    position: relative;
+    
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 100vh;
+
+    background-color: rgba(0.0,0.0,0.0,0.5);
+}
+
+.dialog_container{
+    display: block;
+    position: absolute;
+
+    width: 360px;
+    height: 200px;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    opacity: 0.0;
+
+    transition: opacity 0.8s ease-in-out;
+}
+
+.show{
+    opacity: 1.0;
+}
+
+
+
+.dialog_container .title{
+    display: block;
+    position: relative;
+
+    width: 100%;
+    height: 30px;
+
+    padding: 5%;
+}
+
+.dialog_container .description{
+    display: block;
+    position: relative;
+
+    width: 100%;
+    height: 30px;
+    padding: 5%;
+}
+
+.dialog_container button{
+    display: block;
+    position: absolute;
+
+    width: 200px;
+    height: 36px;
+    line-height: 36 px;
+
+    text-align: center;
+
+
+    bottom: 0;
+    right: 0;
+
+    color: #fff;
+    background-color: #000;
+}

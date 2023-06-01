@@ -1,0 +1,69 @@
+.container{
+    display: block;
+    position: relative;
+
+    width: 100%;
+}
+.inner_container{
+    display: block;
+    position: relative;
+
+    width: 100%;
+}
+
+.menu_block{
+    display: inline-block;
+    position: relative;
+
+    width: 200px;
+    height: 340px;
+
+    border: 1px solid #fff;
+    vertical-align: top;
+}
+
+.icon_container{
+    display: block;
+    position: relative;
+
+    width: 60px;
+    height: 60px;
+
+    border-radius: 60px;
+
+    margin: auto;
+    margin-bottom: 20px;
+
+    background-color: #fff;
+}
+
+.menu_container{
+    display: block;
+    position: relative;
+
+    width: 100%;
+
+}
+
+.btn{
+    display: block;
+    position: relative;
+
+    width: 180px;
+    height: 36px;
+    line-height: 36px;
+
+    border-radius: 36px;
+
+    margin: auto;
+    margin-bottom: 20px;
+
+    color: #fff;
+
+    font-size: 13px;
+
+    text-align: center;
+
+    background-color:  var(--main-blue-color);
+
+}

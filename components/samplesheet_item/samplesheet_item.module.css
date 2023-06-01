@@ -1,0 +1,82 @@
+.container{
+
+    display: block;
+    position: relative;
+
+    width: 100%;
+
+}
+
+.up_container{
+
+    display: block;
+    position: relative;
+
+    width: 100%;
+    font-size: 0;
+
+    padding-top: 10px;
+}
+
+.checkmark_container{
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    vertical-align: top;
+
+    font-size: 12px;
+}
+.image_container{
+    display: inline-block;
+    position: relative;
+
+    width: 60px;
+    height: 60px;
+    vertical-align: top;
+}
+
+.image_container img{
+    width: 100%;
+}
+
+.info_container{
+    display: inline-block;
+    position: relative;
+
+    width: calc(100% - 170px);
+    vertical-align: top;
+
+    font-size: 12px;
+
+    padding-left: 20px;
+}
+
+.btn_container{
+    display: inline-block;
+    position: relative;
+
+    width: 50px;
+    vertical-align: top;
+    font-size: 12px;
+}
+
+.down_container{
+    display: block;
+    position: relative;
+
+    width: 100%;
+}
+
+.like_btn{
+    display:block;
+    position: relative;
+
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    text-align: center;
+
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.row{
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #000;
+}
+
+.column{
+    font-size: 16px;
+}

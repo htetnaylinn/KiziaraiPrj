@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/api/user_profile/create.js", "pages/api/user_profile/create_db.js", "pages/api/ka_admin/delete_user.js", "pages/api/ka_admin/get_user.js", "pages/api/ka_admin/get_user_db.js", "pages/api/agent/get_agents.js", "components/hooks/use_locale_text.js"],
+  "exclude": ["node_modules"]
+}
