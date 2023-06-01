@@ -8,13 +8,15 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
@@ -32,3 +34,43 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# KIZIARAI
+
+```mermaid
+erDiagram
+    ka_chat_threads {
+        int8 id PK
+        timestampz created_at
+        udid created_by FK "users"
+    }
+    users ||--|{ ka_chat_threads : ""   
+    
+    ka_chat_messages {
+        int8 id PK
+        timestampz created_at
+        int8 thread_id FK "ka_chat_theads"
+        udid user_id FK "users"
+        text message
+    }
+    ka_chat_threads ||--o{ ka_chat_messages : ""
+    users ||--o{ ka_chat_messages : ""
+
+    ka_chat_unread_statuses {
+        int8 id PK
+        timestampz created_at
+        int8 message_id FK "ka_chat_messages"
+        udid user_id FK "users"
+        bool status
+    }
+    ka_chat_messages ||--o{ ka_chat_unread_statuses : ""
+    users ||--o{ ka_chat_unread_statuses : ""
+
+    ka_chat_thread_members {
+        int8 id PK
+        timestampz created_at
+        int8 thread_id FK "ka_chat_threads"
+        udid user_id FK "users"
+    }
+    ka_chat_threads ||--o{ ka_chat_thread_members : ""
+    users ||--o{ ka_chat_thread_members : ""
+```
